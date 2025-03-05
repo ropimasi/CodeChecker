@@ -21,7 +21,7 @@ _(dev.ropimasi.lib.codechecker)_
 ## DESCRIPTION
 * SUBJECT: Java library to check the validity of numeric codes;
 * PROJECT NAME: **CodeChecker**;
-* LIBRARY NAME: **dev.ropimasi.lib.codchecker**;
+* LIBRARY NAME: **dev.ropimasi.lib.codechecker**;
 * WHAT IS: **CodeChecker** is a small Java library aims to give methods to check the validity of numeric validation codes. It can validate the validation codes made by multiples-11 and multiples-31 approaches. More information about versions and compatibility can be found below;
 * TO WIT: The **CodeChecker** and its resources are a project sample, which I have developing to demonstrate some of my abilities. The **CodeChecker** project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.dev/portfolio](https://ropimasi.dev/portfolio).  
 
