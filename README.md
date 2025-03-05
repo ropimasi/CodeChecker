@@ -1,6 +1,6 @@
 # CodeChecker
 Small Java library aims to give methods to check the validity of numeric validation codes.  
-_(dev.ropimasi.lib.codchecker)_  
+_(dev.ropimasi.lib.codechecker)_  
 
 &nbsp;  
 &nbsp;  
