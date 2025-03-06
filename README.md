@@ -77,13 +77,18 @@ Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a speci
 <a name="features"></a>
 ## FEATURES
 ### Features in current version (0.1.0)
-  + A...
+  * Provides the one-digit numeric validation code:
+    + of an integer number (type Long) by multiples-11 approach;
+    + of an integer number (type String) by multiples-11 approach;
+  * Provides the two-digits numeric validation code:
+    + of an integer number (type Long) by multiples-31 approach;
+    + of an integer number (type String) by multiples-31 approach;
 
 &nbsp;  
 
 ### Features in target release version (1.0.0)
-  + All features above, more...
-  + B...
+  * All features above, more...
+  * ...
 
 &nbsp;  
 &nbsp;  
