@@ -77,18 +77,37 @@ Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a speci
 <a name="features"></a>
 ## FEATURES
 ### Features in current version (0.1.0)
-  * Provides the one-digit numeric validation code:
-    + of an integer number (type Long) by multiples-11 approach;
-    + of an integer number (type String) by multiples-11 approach;
-  * Provides the two-digits numeric validation code:
-    + of an integer number (type Long) by multiples-31 approach;
-    + of an integer number (type String) by multiples-31 approach;
+  * Provides one-digit numeric validation code:
+    + from an integer number (type Long) by multiples-11 approach, to String type;
+    + from an integer number (type String) by multiples-11 approach, to String type;
+  * Provides two-digits numeric validation code:
+    + from an integer number (type Long) by multiples-31 approach, to String type;
+    + from an integer number (type String) by multiples-31 approach, to String type;
+  * Provides one-digit numeric validation code along with the originating number:
+    + from an integer number (type Long) by multiples-11 approach, to String type;
+    + from an integer number (type String) by multiples-11 approach, to String type;
+  * Provides two-digits numeric validation code along with the originating number:
+    + from an integer number (type Long) by multiples-31 approach, to String type;
+    + from an integer number (type String) by multiples-31 approach, to String type;  
 
 &nbsp;  
 
 ### Features in target release version (1.0.0)
   * All features above, more...
-  * ...
+  * Provides one-digit numeric validation code:
+    + from an integer number (type Long) by multiples-11 approach, to Integer type;
+    + from an integer number (type String) by multiples-11 approach, to Integer type;
+  * Provides two-digits numeric validation code:
+    + from an integer number (type Long) by multiples-31 approach, to Integer type;
+    + from an integer number (type String) by multiples-31 approach, to Integer type;
+  * Provides one-digit numeric validation code along with the originating number:
+    + from an integer number (type Long) by multiples-11 approach, to a Record type of Integers;
+    + from an integer number (type String) by multiples-11 approach, to a Record type of Integers;
+  * Provides two-digits numeric validation code along with the originating number:
+    + from an integer number (type Long) by multiples-31 approach, to a Record type of Integers;
+    + from an integer number (type String) by multiples-31 approach, to a Record type of Integers;
+  * Provides a boolean validation for the pair of numbers (originating number and one-digit numeric validation code), using multiples-11 approach;
+  * Provides a boolean validation for the pair of numbers (originating number and two-digit numeric validation code), using multiples-31 approach;
 
 &nbsp;  
 &nbsp;  
