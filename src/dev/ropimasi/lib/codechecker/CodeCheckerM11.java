@@ -48,7 +48,12 @@ public class CodeCheckerM11 {
 	}
 
 
-
+/*
+ * HERE: Parei aqui. Fazer a feature "int-m11-n.int" (entrada-processo-saída).
+ * */
+	
+	
+	
 	private static String calculate(String number) {
 		try {
 			Long.parseLong(number);
