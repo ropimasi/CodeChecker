@@ -7,23 +7,13 @@ _(dev.ropimasi.lib.codechecker)_
 &nbsp;  
 
 ## LIST OF CONTENTS
-* [Description](#description)
 * [Attention: Rights, License and Disclaimer](#attention-rights)
+* [Description](#description)
+* [Description - Methods](description-methods)
+* [Description - Screenshots](description-screenshots)
 * [Versioning Guideline](#versioning)
 * [Features](#features)
 * [Author](#author)  
-
-&nbsp;  
-&nbsp;  
-&nbsp;  
-
-<a name="description"></a>
-## DESCRIPTION
-* SUBJECT: Java library to check the validity of numeric codes;
-* PROJECT NAME: **CodeChecker**;
-* LIBRARY NAME: **dev.ropimasi.lib.codechecker**;
-* WHAT IS: **CodeChecker** is a small Java library aims to give methods to check the validity of numeric validation codes. It can validate the validation codes made by multiples-11 and multiples-31 approaches. More information about versions and compatibility can be found below;
-* TO WIT: The **CodeChecker** and its resources are a project sample, which I have developing to demonstrate some of my abilities. The **CodeChecker** project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.dev/portfolio](https://ropimasi.dev/portfolio).  
 
 &nbsp;  
 &nbsp;  
@@ -35,7 +25,42 @@ _(dev.ropimasi.lib.codechecker)_
 >This is a personal, private project, exclusively for the purposes of my studies in software development; This project and its resources are an integral, indivisible, inseparable part of a private project, which has its use expressly exclusive to its author, Ronaldo Silva (ropimasi@email.com / http://ropimasi.dev); Any use, sale, rental, distribution, in part or in full of this project is prohibited; It is a project under development and experimentation, therefore I do not recognize or assume any responsibility for its use, nor for any possible reflections or consequences of such use.
 >   
 >**NOTA IMPORTANTE / ISENÇÃO DE RESPONSABILIDADE:** (pt-BR)
->Este é um projeto pessoal, privado, exclusivamente para fins dos meus estudos em desenvolvimento de software; Este projeto e seus recursos são parte integrante, indivisível, inseparável de um projeto particular, que tem seu uso expressamente exclusivo ao seu autor, Ronaldo Silva (ropimasi@email.com / http://ropimasi.dev); Qualquer uso, venda, aluguel, distribuição, em partes ou integral deste projeto é proibido; É um projeto em desenvolvimento e experimentação, portanto não reconheço nem assumo qualquer responsabilidade pelo uso do mesmo, nem por quaisquer possíveis reflexos ou consequências de tal uso.  
+>Este é um projeto pessoal, privado, exclusivamente para fins dos meus estudos em desenvolvimento de software; Este projeto e seus recursos são parte integrante, indivisível, indissociável de um projeto privado, que tem seu uso expressamente exclusivo ao seu autor, Ronaldo Silva (ropimasi@email.com / http://ropimasi.dev); É proibida qualquer utilização, venda, locação, distribuição, parcial ou integral deste projeto; É um projeto em desenvolvimento e experimentação, portanto não reconheço ou assumo qualquer responsabilidade pelo seu uso, nem por quaisquer possíveis reflexos ou consequências de tal uso.  
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+<a name="description"></a>
+## DESCRIPTION
+* SUBJECT: Java library to check the validity of numeric codes;
+* PROJECT NAME: **CodeChecker**;
+* LIBRARY NAME: **dev.ropimasi.lib.codechecker**;
+* WHAT IS: **CodeChecker** is a small Java library aims to give methods to check the validity of numeric validation codes. It can validate the validation codes made by multiples-11 and multiples-31 approaches;
+* TO WIT: The **CodeChecker** and its resources are a project sample, which I have developing to demonstrate some of my abilities. The **CodeChecker** project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.dev/portfolio](https://ropimasi.dev/portfolio).  
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+<a name="description-methods"></a>
+### DESCRIPTION - METHODS
+* CodeCheckerM11.getFor(number): Returns a numeric validation code for de the number given as parameter. The returned validation code is a String type value contaning an "one-digit number";
+* CodeCheckerM11.getCompleteFor(number): Returns number given as parameter with along its a numeric validation code for de the number given as parameter. The returned validation code is a String type value contaning a "n-digit number + '-' + one-digit number";
+* CodeCheckerM11.calculate(number): Is a private method calculates and gives, for internal public methods, a numeric validation code for de the number given as parameter. The returned validation code is a String type value contaning an "one-digit number";
+
+* CodeCheckerM31.getFor(number): Returns a numeric validation code for de the number given as parameter. The returned validation code is a String type value contaning an "two-digits number";
+* CodeCheckerM31.getCompleteFor(number): Returns number given as parameter with along its a numeric validation code for de the number given as parameter. The returned validation code is a String type value contaning a "n-digit number + '-' + two-digits number";
+* CodeCheckerM31.calculate(number): Is a private method calculates and gives, for internal public methods, a numeric validation code for de the number given as parameter. The returned validation code is a String type value contaning an "two-digits number";
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+<a name="description-screenshots"></a>
+### DESCRIPTION - SCREENSHOTS
+##### Using the methods calling:  
+![Test class calling the lib's methods](resource/img/CodeChecker-Screenshot-1.png)
 
 &nbsp;  
 &nbsp;  
@@ -43,7 +68,7 @@ _(dev.ropimasi.lib.codechecker)_
 
 <a name="versioning"></a>
 ## VERSIONING GUIDELINE
-In a team project, it is very important to know and follow the specifications of the project version. Although at the moment this roject's status is under early development (as it has not its first release version yet 1.0.0-release) however its project already is designed under [**_SemVer_** (Semantic Versioning Specification)](http://semver.org/).  
+In a team project, it is very important to know and follow the specifications of the project version. Although at the moment this project's status is under early development (as it has not its first release version yet 1.0.0-release) however its project already is designed under [**_SemVer_** (Semantic Versioning Specification)](http://semver.org/).  
 Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a specification (set of rules) that tells us (or dictates) how to use the numbers (and some letters) on the _versioning-expression_ (_VerExpr_). More specifically, this project uses the following standardization: **_Major.Minor.Patch-ReleaseStatus+Build_**, where:
 * The standard values of **_Major_**, **_Minor_**, and **_Patch_** for the _VerExpr_ are as follows:
   + Positive integer decimal numbers, without zero remaining on the left;
