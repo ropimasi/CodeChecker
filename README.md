@@ -114,14 +114,14 @@ Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a speci
   * Provides two-digits numeric validation code along with the originating number:
     + from an integer number (type Long) by multiples-31 approach, to String type;
     + from an integer number (type String) by multiples-31 approach, to String type;  
+  * Provides one-digit numeric validation code:
+    + from an integer number (type Long) by multiples-11 approach, to Integer type;
+    + from an integer number (type String) by multiples-11 approach, to Integer type;
 
 &nbsp;  
 
 ### Features in target release version (1.0.0)
   * All features above, more...
-  * Provides one-digit numeric validation code:
-    + from an integer number (type Long) by multiples-11 approach, to Integer type;
-    + from an integer number (type String) by multiples-11 approach, to Integer type;
   * Provides two-digits numeric validation code:
     + from an integer number (type Long) by multiples-31 approach, to Integer type;
     + from an integer number (type String) by multiples-31 approach, to Integer type;

@@ -50,6 +50,12 @@ public class CodeCheckerM11 {
 	}
 
 
+	/* HERE: TODO: continuar desenvolvimento descrito a baixo:
+	 * Provides one-digit numeric validation code:
+	 * from an integer number (type Long) by multiples-11 approach, to Integer type;
+	 * from an integer number (type String) by multiples-11 approach, to Integer type;
+	 * */ 
+	
 
 	private static String calculate(String number) {
 		try {
