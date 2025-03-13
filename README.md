@@ -128,15 +128,12 @@ Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a speci
 
 ### Features in target release version (1.0.0)
   * All features above, more...
-  * Provides two-digits numeric validation code:
-    + from an integer number (type Long) by multiples-31 approach, to Integer type;
-    + from an integer number (type String) by multiples-31 approach, to Integer type;
   * Provides one-digit numeric validation code along with the originating number:
-    + from an integer number (type Long) by multiples-11 approach, to a Record type of Integers;
-    + from an integer number (type String) by multiples-11 approach, to a Record type of Integers;
+    + from an integer number (type Long) by multiples-11 approach, to a Record type of String;
+    + from an integer number (type String) by multiples-11 approach, to a Record type of String;
   * Provides two-digits numeric validation code along with the originating number:
-    + from an integer number (type Long) by multiples-31 approach, to a Record type of Integers;
-    + from an integer number (type String) by multiples-31 approach, to a Record type of Integers;
+    + from an integer number (type Long) by multiples-31 approach, to a Record type of String;
+    + from an integer number (type String) by multiples-31 approach, to a Record type of String;
   * Provides a boolean validation for the pair of numbers (originating number and one-digit numeric validation code), using multiples-11 approach;
   * Provides a boolean validation for the pair of numbers (originating number and two-digit numeric validation code), using multiples-31 approach;
 
