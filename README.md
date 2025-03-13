@@ -11,6 +11,7 @@ _(dev.ropimasi.lib.codechecker)_
 * [Description](#description)
 * [Description - Methods](description-methods)
 * [Description - Screenshots](description-screenshots)
+* [Techniques Used](techniques)
 * [Versioning Guideline](#versioning)
 * [Features](#features)
 * [Author](#author)  
@@ -20,7 +21,7 @@ _(dev.ropimasi.lib.codechecker)_
 &nbsp;  
 
 <a name="attention-rights"></a>
-## ATTENTION: RIGHTS, LICENSE AND DISCLAIMER: (en-US)
+## ATTENTION: RIGHTS, LICENSE AND DISCLAIMER:
 >**IMPORTANT NOTE / DISCLAIMER:** (en-US)
 >This is a personal, private project, exclusively for the purposes of my studies in software development; This project and its resources are an integral, indivisible, inseparable part of a private project, which has its use expressly exclusive to its author, Ronaldo Silva (ropimasi@email.com / http://ropimasi.dev); Any use, sale, rental, distribution, in part or in full of this project is prohibited; It is a project under development and experimentation, therefore I do not recognize or assume any responsibility for its use, nor for any possible reflections or consequences of such use.
 >   
@@ -66,6 +67,14 @@ _(dev.ropimasi.lib.codechecker)_
 &nbsp;  
 &nbsp;  
 
+<a name="techniques"></a>
+## TECHNIQUES USED
+A...
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
 <a name="versioning"></a>
 ## VERSIONING GUIDELINE
 In a team project, it is very important to know and follow the specifications of the project version. Although at the moment this project's status is under early development (as it has not its first release version yet 1.0.0-release) however its project already is designed under [**_SemVer_** (Semantic Versioning Specification)](http://semver.org/).  
@@ -101,22 +110,19 @@ Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a speci
 
 <a name="features"></a>
 ## FEATURES
-### Features in current version (0.1.0)
+### Features in current version (0.2.1-alpha)
   * Provides one-digit numeric validation code:
     + from an integer number (type Long) by multiples-11 approach, to String type;
     + from an integer number (type String) by multiples-11 approach, to String type;
   * Provides two-digits numeric validation code:
     + from an integer number (type Long) by multiples-31 approach, to String type;
     + from an integer number (type String) by multiples-31 approach, to String type;
-  * Provides one-digit numeric validation code along with the originating number:
+  * Provides one-digit numeric validation code **along with the originating number**:
     + from an integer number (type Long) by multiples-11 approach, to String type;
     + from an integer number (type String) by multiples-11 approach, to String type;
-  * Provides two-digits numeric validation code along with the originating number:
+  * Provides two-digits numeric validation code **along with the originating number**:
     + from an integer number (type Long) by multiples-31 approach, to String type;
     + from an integer number (type String) by multiples-31 approach, to String type;  
-  * Provides one-digit numeric validation code:
-    + from an integer number (type Long) by multiples-11 approach, to Integer type;
-    + from an integer number (type String) by multiples-11 approach, to Integer type;
 
 &nbsp;  
 
@@ -140,7 +146,7 @@ Thus, this project uses **_SemVer_** for its versioning. **_SemVer_** is a speci
 
 <a name="author"></a>
 ## Att. Ronaldo Silva.
-##### | [https://ropimasi.dev](https://ropimasi.dev) | [linkedin @ropimasi](https://linkedin.com/in/ropimasi/) | [x (twitter) @ropimasi](https://x.com/ropimasi/) | [insta @ropimasi](https://instagram.com/ropimasi/) | [ropimasi@email.com](mailto://ropimasi@email.com) |  
+##### | [https://ropimasi.dev](https://ropimasi.dev) | [linkedin @ropimasi](https://linkedin.com/in/ropimasi/) | [x (twitter) @ropimasi](https://x.com/ropimasi/) | [instagram @ropimasi](https://instagram.com/ropimasi/) | [ropimasi@email.com](mailto://ropimasi@email.com) |  
 
 &nbsp;  
 &nbsp;  

@@ -10,7 +10,7 @@ import java.security.InvalidParameterException;
 
 public class CodeCheckerM11 {
 	public static String getFor(String number) {
-		if (!(number instanceof String))
+		if (number == null)
 			throw new InvalidParameterException(
 					"The parameter whose verification code is being checked must be an string.");
 		return calculate(number);
@@ -20,18 +20,17 @@ public class CodeCheckerM11 {
 
 	// Overload above "String getFor(String number)".
 	public static String getFor(Long number) {
-		if (!(number instanceof Long))
-			throw new NumberFormatException(
+		if (number == null)
+			throw new InvalidParameterException(
 					"The number whose verification code is being checked must be an integer number.");
 
-		String rtn = String.valueOf(number);
-		return calculate(rtn);
+		return calculate(number);
 	}
 
 
 
 	public static String getCompleteFor(String number) {
-		if (!(number instanceof String))
+		if (number == null)
 			throw new InvalidParameterException(
 					"The parameter whose verification code is being checked must be an string.");
 		return number + "-" + calculate(number);
@@ -41,21 +40,15 @@ public class CodeCheckerM11 {
 
 	// Overload above "String getCompleteFor(String number)".
 	public static String getCompleteFor(Long number) {
-		if (!(number instanceof Long))
-			throw new NumberFormatException(
+		if (number == null)
+			throw new InvalidParameterException(
 					"The number whose verification code is being checked must be an integer number.");
 
-		String rtn = String.valueOf(number);
-		return number + "-" + calculate(rtn);
+		//String rtn = String.valueOf(number);
+		return number + "-" + calculate(number);
 	}
 
 
-	/* HERE: TODO: continuar desenvolvimento descrito a baixo:
-	 * Provides one-digit numeric validation code:
-	 * from an integer number (type Long) by multiples-11 approach, to Integer type;
-	 * from an integer number (type String) by multiples-11 approach, to Integer type;
-	 * */ 
-	
 
 	private static String calculate(String number) {
 		try {

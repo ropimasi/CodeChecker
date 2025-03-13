@@ -5,7 +5,7 @@
 	
 	<groupId>dev.ropimasi.lib.codechecker</groupId>
 	<artifactId>codechecker</artifactId>
-	<version>0.2.0-dev-202503101120</version>
+	<version>0.2.1-dev-202503131445</version>
 	<name>CodeChecker</name>
 	<description>Small Java library aims to give methods to check the validity
 		of numeric validation codes.</description>

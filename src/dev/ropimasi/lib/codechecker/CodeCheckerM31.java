@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
 
 public class CodeCheckerM31 {
 	public static String getFor(String number) {
-		if (!(number instanceof String))
+		if (number == null)
 			throw new InvalidParameterException(
 					"The parameter whose verification code is being checked must be an string.");
 		return calculate(number);
@@ -24,18 +24,17 @@ public class CodeCheckerM31 {
 
 	// Overload above "String getFor(String number)".
 	public static String getFor(Long number) {
-		if (!(number instanceof Long))
-			throw new NumberFormatException(
+		if (number == null)
+			throw new InvalidParameterException(
 					"The number whose verification code is being checked must be an integer number.");
 
-		String rtn = String.valueOf(number);
-		return calculate(rtn);
+		return calculate(number);
 	}
 
 
 
 	public static String getCompleteFor(String number) {
-		if (!(number instanceof String))
+		if (number == null)
 			throw new InvalidParameterException(
 					"The parameter whose verification code is being checked must be an string.");
 		return number + "-" + calculate(number);
@@ -45,12 +44,11 @@ public class CodeCheckerM31 {
 
 	// Overload above "String getCompleteFor(String number)".
 	public static String getCompleteFor(Long number) {
-		if (!(number instanceof Long))
-			throw new NumberFormatException(
+		if (number == null)
+			throw new InvalidParameterException(
 					"The number whose verification code is being checked must be an integer number.");
 
-		String rtn = String.valueOf(number);
-		return number + "-" + calculate(rtn);
+		return number + "-" + calculate(number);
 	}
 
 
@@ -86,12 +84,14 @@ public class CodeCheckerM31 {
 		return rtn;
 	}
 
+
+
 	// Overload above "String calculate(String number)".
 	private static String calculate(Long number) {
 		if (!(number instanceof Long))
 			throw new NumberFormatException(
 					"The number whose verification code is being checked must be an integer number.");
-		
+
 		String strNumber = "";
 		try {
 			strNumber = Long.toString(number);
